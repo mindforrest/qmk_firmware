@@ -18,10 +18,6 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-
-#define FORCE_NKRO
-
-
 #pragma once
 
 //#define USE_MATRIX_I2C
@@ -29,7 +25,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Select hand configuration */
 
 #define MASTER_LEFT
-//#define MASTER_RIGHT
+// #define MASTER_RIGHT
 // #define EE_HANDS
 
 #define SSD1306OLED
@@ -38,25 +34,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define TAPPING_FORCE_HOLD
 
-#undef TAPPING_TERM
-#define TAPPING_TERM 230
-
-//#define COMBO_COUNT 2
-
-	
-//#undef RGBLED_NUM
 //#define RGBLIGHT_ANIMATIONS
-//#define RGBLED_NUM 27
 //#define RGBLIGHT_LIMIT_VAL 120
 //#define RGBLIGHT_HUE_STEP 10
 //#define RGBLIGHT_SAT_STEP 17
 //#define RGBLIGHT_VAL_STEP 17
+#undef TAPPING_TERM
+#define TAPPING_TERM 125
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+ 
 
-
-// Underglow
-/*
-#undef RGBLED_NUM
-#define RGBLED_NUM 14    // Number of LEDs
-#define RGBLIGHT_ANIMATIONS
-#define RGBLIGHT_SLEEP
-*/

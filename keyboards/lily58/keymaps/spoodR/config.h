@@ -28,8 +28,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-#define MASTER_LEFT
-//#define MASTER_RIGHT
+//#define MASTER_LEFT
+#define MASTER_RIGHT
 // #define EE_HANDS
 
 #define SSD1306OLED
@@ -40,8 +40,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #undef TAPPING_TERM
 #define TAPPING_TERM 230
-
-//#define COMBO_COUNT 2
 
 	
 //#undef RGBLED_NUM
